@@ -1,5 +1,7 @@
 public class TestAsterisk {
     public static void main(String[] args) {
-        System.out.print("*");
+        AsteriskLine lineOfStars = new AsteriskLine();
+        lineOfStars.getNoOfStarsFromUser();
+        lineOfStars.printLine();
     }
 }
