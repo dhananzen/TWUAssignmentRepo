@@ -1,15 +1,18 @@
 import java.util.Scanner;
 
-public class AsteriskVerticalLine {
+public class AsteriskRightTriangle {
     public int numberOfStars;
 
-    AsteriskVerticalLine(){
+    AsteriskRightTriangle(){
         numberOfStars=0;
     }
 
-    public void printLine(){
+    public void printTriangle(){
         for (int i = 0; i < numberOfStars; i++) {
-            System.out.print("*\n");
+            for (int j = 0; j <=i ; j++) {
+                System.out.print("*");
+            }
+            System.out.print("\n");
         }
     }
     public void getNoOfStarsFromUser(){
