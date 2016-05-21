@@ -1,7 +1,7 @@
 public class TestAsterisk {
     public static void main(String[] args) {
-        AsteriskRightTriangle asteriskRightTriangle=new AsteriskRightTriangle();
-        asteriskRightTriangle.getNoOfStarsFromUser();
-        asteriskRightTriangle.printTriangle();
+        IsoscelesTriangle isoscelesTriangle=new IsoscelesTriangle();
+        isoscelesTriangle.getNoOfStarsFromUser();
+        isoscelesTriangle.printTriangle();
     }
 }
