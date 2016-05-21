@@ -1,7 +1,7 @@
 public class TestAsterisk {
     public static void main(String[] args) {
-        AsteriskDiamond asteriskDiamond=new AsteriskDiamond();
-        asteriskDiamond.getNoOfStarsFromUser();
-        asteriskDiamond.printDiamond();
+        AsteriskDiamondWithName asteriskDiamondWithName=new AsteriskDiamondWithName();
+        asteriskDiamondWithName.getNoOfStarsFromUser();
+        asteriskDiamondWithName.printDiamond();
     }
 }
